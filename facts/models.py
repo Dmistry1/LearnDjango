@@ -1,6 +1,7 @@
 from django.db import models
 
+
 # Create your models here.
-class CatFacts(models.model):
+class CatFact(models.Model):
     text = models.TextField()
     image_url = models.TextField()
